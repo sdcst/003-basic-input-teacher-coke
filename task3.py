@@ -12,3 +12,10 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+import math
+a = int(input("value for a: "))
+b = int(input("value for b: "))
+c = int(input("value for c: "))
+x = (c-b)/a
+print("value for x = " + str(x))
